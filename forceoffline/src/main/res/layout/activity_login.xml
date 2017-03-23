@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vincent.forceoffline.LoginActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:hint="name"
+        android:id="@+id/id_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/id_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:hint="psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_name_input">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/id_psw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#55caca"
+        android:text="login"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
